@@ -1,0 +1,202 @@
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.population__characteristics_header {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 20px;
+  color: #4A4A68;
+}
+
+
+.population__characteristics_analysis {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #4a4a68;
+}
+
+.population__characteristics_buttons_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.population__characteristics_buttons {
+  width: fit-content;
+  height: 44px;
+  /* Text Color/100 */
+  border: 1px solid #dbdbe1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.population__characteristics_button_one {
+  width: 100px;
+  height: 34px;
+  background: #4a4a68;
+  border-radius: 5px 0px 0px 5px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+}
+
+.population__characteristics_button_two,
+.population__characteristics_button_three {
+  width: 100px;
+  height: 34px;
+  margin-left: 5px;
+  /* Text Color/100 */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  /* Text Color/100 */
+
+  background: #dbdbe1;
+  opacity: 0.3;
+}
+
+.population__characteristics_select select {
+  box-sizing: border-box;
+
+  width: 114px;
+  height: 25px;
+
+  background: #ffffff;
+  /* Text Color/100 */
+
+  border: 1px solid #dbdbe1;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height, or 120% */
+  margin-top: 10px;
+  /* Text Color/600 */
+
+  color: #4a4a68;
+}
+
+.population__characteristics__progressbar_section {
+  border: 1px solid #DBDBE1;
+  border-radius: 10px;
+  display: flex;
+  width: 70%;
+  align-items: center;
+  padding: 2.5rem 1rem;
+}
+
+.population__progressbar_vertical__text {
+  writing-mode: vertical-rl;
+transform: rotate(180deg);
+transform-origin: 1 1;
+font-size: 10px;
+line-height: 12px;
+color: #4A4A68;
+}
+
+.population__progressbar_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.population__progress__bar {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  font-size: 10px;
+  align-items: center;
+line-height: 12px;
+/* or 120% */
+
+
+/* Text Color/600 */
+
+color: #4A4A68;
+}
+
+.population__progress__bar_percentage{
+  display: flex;
+  align-items: end;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* padding: 0.5rem; */
+  
+/* Text Color/600 */
+ color: #fff;
+ background: #DBDBE1;
+}
+
+.population__progress {
+  background: #4A4A68;
+  border-radius: 5px;
+  width: 100%;
+  font-size: small;
+}
+
+.population__progress_blank {
+  /* background: #4BB543; */
+  border-radius: 5px;
+  width: 100%;
+  font-size: small;
+}
+
+.success {
+  background-color: #4BB543 !important;
+}
+
+.fail {
+  background-color: #FF3333;
+}
+
+.vertical-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 3rem;
+  position: relative;
+  height: 100%;
+}
+
+.horizontal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 3rem;
+}
+
+.progress_text_center_vertical {
+  position: absolute;
+  bottom: 50%;
+}
+
+.progress_text_center_horizontal {
+  position: absolute;
+}
